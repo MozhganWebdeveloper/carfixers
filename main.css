@@ -1,0 +1,144 @@
+body{
+	background-color:#fbd43b;
+	font-family: "Times New Roman";
+	margin:0;
+}
+a{
+	color: black
+text-align:center;
+}
+.mailto{
+
+
+}
+
+hr{
+	border: 1px solid black;
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav{
+	clear:both;
+	background-color: #181a1c;
+	padding-top: 25px;
+	padding-bottom: 25px;
+ 
+
+}
+
+nav ul {
+     list-style: none;
+     margin: 0;
+     padding-left: 5px;
+
+}
+
+nav ul li{
+	display:inline;
+	border: none;
+	width: 15%;
+	padding:3%2%;
+	font-weight: bold;
+	font-size: 18px;
+}
+.image{
+	display:block;
+	margin:0 auto;
+	max-width: 100%;
+}
+.Contact{
+	background:#fbd43b;
+	text-align: center;
+	min-height: 200px;
+}
+ section{
+	float: left;
+	 width: 29%;
+	margin: 1%;
+	padding: 1%;
+	font-size: 18px;
+	color: #3B0B0B;
+	background: #FFBB33;
+	margin-bottom: 20px;
+	min-height: 480px;
+
+}
+.logo{
+	float:left;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+.icon{
+	display:block;
+	border-radius: 50%;
+	max-width: 220px;
+	margin: 0 auto;
+
+}
+.font-text{
+	font-family:"Alex Brush'";
+	text-align: center;
+}
+#map{
+}
+.font-hours{
+
+}
+.Team2{
+	margin-top: 30px;
+}
+.Team3{
+	margin-top: 15px;
+}
+footer{
+	clear:both;
+	height: 100px;
+	background-color:#181a1c;
+	color: white;
+	margin: 0px;
+	text-align: center;
+
+}
+footer p {
+	padding-top: 20px;
+
+	
+}
+
+
+@media (max-width: 768px){
+
+	section{
+		float:none;
+		display: block;
+		margin:0 auto;
+		width:95%;
+	}
+	nav ul li{
+		display: block;
+		width:100%;
+		padding:0;
+		padding-top: 20px;
+	}
+	.logo{
+		float: none;
+	}
+     
+}
+
+@media (max-width: 480px){
+
+
+}
